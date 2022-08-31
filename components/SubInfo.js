@@ -17,7 +17,7 @@ export const NFTTitle = ({ title, subTitle, titleSize, subTitleSize }) => {
 export const EthPrice = () => {
   return (
     <View>
-      <Text>EthPrice</Text>
+      <Text>Price in ETH</Text>
     </View>
   )
 }
