@@ -1,7 +1,7 @@
 import { View, Text, Image, TextInput } from 'react-native'
 
 import { COLORS, FONTS, SIZES, assets } from '../constants'
-import Kellon from '../assets/images/person05.png'
+import kellonProfPic from '../assets/images/person05.png'
 
 const HomeHeader = ({ onSearch }) => {
   return (
@@ -22,7 +22,7 @@ const HomeHeader = ({ onSearch }) => {
 
         <View style={{ width: 45, height: 45 }}>
           <Image 
-            source={Kellon}
+            source={kellonProfPic}
             resizeMode='contain'
             style={{ width: '100%', height: '100%', borderRadius: 50 }}
           />
