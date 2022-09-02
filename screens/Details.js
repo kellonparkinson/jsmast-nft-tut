@@ -29,6 +29,8 @@ const DetailsHeader = ({ data, navigation }) => (
 const Details = ({ route, navigation }) => {
   const { data } = route.params;
 
+  console.log(data)
+
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <FocusedStatusBar 
@@ -68,7 +70,7 @@ const Details = ({ route, navigation }) => {
                   fontFamily: FONTS.semiBold,
                   color: COLORS.primary
                 }}>
-                  Current Bid
+                  Current Bids
                 </Text>
               )}
             </View>
